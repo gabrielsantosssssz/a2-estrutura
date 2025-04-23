@@ -1,0 +1,378 @@
+Pergunta 1
+1
+ Ponto
+Pergunta 1
+Qual operação é realizada na estrutura de dados Fila para adicionar um elemento?
+
+
+pop
+
+
+enqueue
+
+
+push
+
+
+dequeue
+
+Pergunta 2
+Pergunta 2
+1
+ Ponto
+Pergunta 2
+Na implementação das Listas encadeadas, o que o elemento 'proximo' indica?
+
+
+O valor do elemento
+
+
+A posição do próximo elemento na lista
+
+
+O tamanho da lista
+
+
+A posição do elemento atual
+
+Pergunta 3
+Pergunta 3
+1
+ Ponto
+Pergunta 3
+Qual operação de ordenação é considerada ineficiente para listas grandes, devido à sua natureza quadrática?
+
+
+Bubble Sort
+
+
+Insertion Sort
+
+
+Quick Sort
+
+
+Merge Sort
+
+Pergunta 4
+Pergunta 4
+1
+ Ponto
+Pergunta 4
+O que caracteriza a estrutura de dados conhecida como Pilha?
+
+
+FIFO (First In, First Out)
+
+
+LIFO (Last In, First Out)
+
+
+Array
+
+
+Dicionário
+
+Pergunta 5
+Pergunta 5
+1
+ Ponto
+Pergunta 5
+Qual estrutura de dados é ideal para implementar uma fila de atendimento em um banco?
+
+
+Fila (FIFO)
+
+
+Array Fixos
+
+
+Lista Ordenada
+
+
+Pilha (LIFO)
+
+Pergunta 6
+Pergunta 6
+1
+ Ponto
+Pergunta 6
+No contexto de estruturas de dados, o que significa a sigla LIFO?
+
+
+Last First In
+
+
+First In First Out
+
+
+Last In First Out
+
+
+Last Item First Out
+
+Pergunta 7
+Pergunta 7
+1
+ Ponto
+Pergunta 7
+Qual é a complexidade de tempo do algoritmo Bubble Sort no pior caso?
+
+
+O(n log n)
+
+
+O(n²)
+
+
+O(log n)
+
+
+O(n)
+
+Pergunta 8
+Pergunta 8
+1
+ Ponto
+Pergunta 8
+A complexidade de tempo do algoritmo Merge Sort no pior caso é:
+
+
+O(n²)
+
+
+O(log n)
+
+
+O(n log n)
+
+
+O(n)
+
+Pergunta 9
+Pergunta 9
+1
+ Ponto
+Pergunta 9
+Qual é o objetivo da operação de 'peek()' em uma Pilha?
+
+
+Retornar o elemento do topo sem removê-lo.
+
+
+Remover o elemento do topo
+
+
+Verificar se a pilha está vazia
+
+
+Adicionar um novo elemento no topo
+
+Pergunta 10
+Pergunta 10
+1
+ Ponto
+Pergunta 10
+Os elementos de uma lista encadeada estão armazenados em:
+
+
+Uma matriz de tamanho fixo
+
+
+Vetor com índices
+
+
+Um único bloco contíguo de memória
+
+
+Nós que apontam para o próximo elemento.
+
+Pergunta 11
+Pergunta 11
+1
+ Ponto
+Pergunta 11
+Qual o conceito por trás da notação Big O relacionada à complexidade de tempo dos algoritmos?
+
+
+Avaliar a programação orientada a objetos
+
+
+Descrever a facilidade de uso do algoritmo
+
+
+Descrever o tempo de execução em função do tamanho do input.
+
+
+Calcular o espaço em memória utilizado
+
+Pergunta 12
+Pergunta 12
+1
+ Ponto
+Pergunta 12
+O que faz o método size() em uma lista implementada com ArrayList?
+
+
+Retorna a quantidade de elementos na lista.
+
+
+Adiciona um novo elemento
+
+
+Limpa todos os elementos da lista
+
+
+Retorna o primeiro elemento da lista
+
+Pergunta 13
+Pergunta 13
+1
+ Ponto
+Pergunta 13
+Em Java, qual classe é utilizada para trabalhar com listas dinâmicas?
+
+
+Stack
+
+
+LinkedList
+
+
+ArrayList
+
+
+HashMap
+
+Pergunta 14
+Pergunta 14
+1
+ Ponto
+Pergunta 14
+Qual é uma desvantagem de usar Arrays ao implementar listas?
+
+
+Facilidade de acessibilidade
+
+
+Alta performance de execução
+
+
+Tamanho fixo do array
+
+
+Menor uso de memória
+
+Pergunta 15
+Pergunta 15
+1
+ Ponto
+Pergunta 15
+Qual é a principal diferença entre uma Fila e uma Pilha?
+
+
+Fila é FIFO; Pilha é LIFO
+
+
+Pilha pode acessar elementos do meio
+
+
+Ambas são LIFO
+
+
+Ambas são FIFO
+
+Pergunta 16
+Pergunta 16
+1
+ Ponto
+Pergunta 16
+Qual dos seguintes métodos é utilizado para remover o último elemento de uma Pilha em Java?
+
+
+pop()
+
+
+dequeue()
+
+
+remove()
+
+
+delete()
+
+Pergunta 17
+Pergunta 17
+1
+ Ponto
+Pergunta 17
+Qual dos seguintes métodos não é utilizado em uma Pilha?
+
+
+addLast()
+
+
+peek()
+
+
+pop()
+
+
+push()
+
+Pergunta 18
+Pergunta 18
+1
+ Ponto
+Pergunta 18
+Para que se utiliza o método add() em listas em Java?
+
+
+Verificar a quantidade de elementos
+
+
+Adicionar um elemento na lista.
+
+
+Remover um elemento da lista
+
+
+Ordenar os elementos da lista
+
+Pergunta 19
+Pergunta 19
+1
+ Ponto
+Pergunta 19
+Quando um algoritmo de ordenação como o Insertion Sort é mais eficiente?
+
+
+Com um pequeno número de elementos.
+
+
+Com um grande número de elementos.
+
+
+Em qualquer situação é sempre eficiente.
+
+
+Quando os elementos estão todos iguais.
+
+Pergunta 20
+Pergunta 20
+1
+ Ponto
+Pergunta 20
+A complexidade de tempo do algoritmo Quick Sort no pior caso é:
+
+
+O(n)
+
+
+O(n log n)
+
+
+O(n²)
+
+
+O(log n)
