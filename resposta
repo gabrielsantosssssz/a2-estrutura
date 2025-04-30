@@ -1,0 +1,146 @@
+Perfeito! Já que a prova vai ser baseada nessa lista, vou te montar um material mais completo com:
+
+- Resumos teóricos detalhados  
+- Tabelas de comparação  
+- Exemplos com código Java  
+- Explicações de cada alternativa das questões  
+- Dicas práticas de como resolver
+
+---
+
+## 📘 RESUMO TEÓRICO COMPLETO – ESTRUTURA DE DADOS
+
+---
+
+### 🔹 LISTAS ENCADEADAS
+
+| Tipo                      | Característica Principal                                      |
+|--------------------------|---------------------------------------------------------------|
+| Simplesmente encadeada   | Cada nó aponta para o próximo                                 |
+| Duplamente encadeada     | Cada nó aponta para o anterior e o próximo                    |
+| Circular                 | O último elemento aponta para o primeiro                      |
+
+**Vantagens sobre matrizes:**
+- Crescem dinamicamente
+- Inserções e remoções eficientes
+- Sem necessidade de realocação de memória
+
+**Desvantagens:**
+- Acesso sequencial (não aleatório)
+- Ocupam mais memória por causa dos ponteiros
+
+**Exemplo:**
+```java
+class No {
+    int valor;
+    No proximo;
+}
+```
+
+---
+
+### 🔹 MATRIZES
+
+- Estrutura de dados **estática** (tamanho fixo)
+- Armazena dados em **linhas e colunas**
+- Precisa ser alocada com tamanho fixo no início
+
+**Exemplo em Java:**
+```java
+int[][] matriz = new int[2][3]; // 2 linhas, 3 colunas
+```
+
+**Erro comum:**
+```java
+matriz[5][2]; // se não existir essa posição, dá ArrayIndexOutOfBoundsException
+```
+
+---
+
+### 🔹 FILAS (Queue)
+
+- Lógica FIFO (First In, First Out)
+- **enqueue** → adiciona elemento no final
+- **dequeue** → remove elemento do início
+
+**Fila Circular:**
+- Reutiliza posições já liberadas (ideal para espaço limitado)
+
+---
+
+### 🔹 PILHAS (Stack)
+
+- Lógica LIFO (Last In, First Out)
+- **push** → adiciona no topo
+- **pop** → remove do topo
+
+**Exemplo com Stack do Java:**
+```java
+Stack<Integer> pilha = new Stack<>();
+pilha.push(5);
+System.out.println(pilha.pop()); // sai 5
+```
+
+---
+
+### 🔹 COMPLEXIDADE DE ALGORITMOS
+
+- Medida de desempenho de um algoritmo
+- Pode ser de **tempo** ou **espaço**
+- Exemplos:
+  - O(1): constante
+  - O(n): linear
+  - O(n²): quadrática
+
+---
+
+### 🔹 CÓDIGOS ESSENCIAIS
+
+**Verificar idade:**
+```java
+int idade = 18;
+if (idade >= 18) {
+    System.out.println("maior de idade");
+} else {
+    System.out.println("menor de idade");
+}
+```
+
+**Verificar se é par ou ímpar:**
+```java
+if (numero % 2 == 0) {
+    System.out.println(numero + " é par");
+} else {
+    System.out.println(numero + " é ímpar");
+}
+```
+
+**Contar de 1 a 10:**
+```java
+for (int i = 1; i <= 10; i++) {
+    System.out.println(i);
+}
+```
+
+**Verificar se b é o menor valor:**
+```java
+if (b < a && b < c) {
+    System.out.println("B é o menor");
+}
+```
+
+---
+
+### 🔹 DICAS DE PROVA
+
+✅ Leia as alternativas com calma: muitas pegam pela palavra-chave (ex: "estática", "dinâmica")  
+✅ Identifique o tipo de estrutura antes de resolver (fila, pilha, matriz, lista)  
+✅ Preste atenção nos nomes dos métodos:  
+- **push** e **pop** → PILHA  
+- **enqueue** e **dequeue** → FILA
+
+✅ Se pedir para mostrar números (ex: 1 a 10), pense em `for`.
+
+---
+
+Posso agora criar um PDF completo com esse conteúdo pra você revisar, ou adicionar exercícios simulados com gabarito. O que você prefere?
