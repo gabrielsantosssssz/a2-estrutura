@@ -1,0 +1,192 @@
+Perfeito! Vamos montar um **material de estudo focado nas alternativas** da lista de exercícios que você enviou, explicando o **porquê de cada resposta estar certa ou errada**, com exemplos e observações importantes para prova.
+
+---
+
+## 📘 ESTUDO GUIADO COM BASE NAS ALTERNATIVAS
+
+---
+
+### **1. Diferença entre listas encadeadas simples e duplamente encadeadas**
+
+- **(a)** Errado – desempenho depende da implementação, não da estrutura.
+- **(b)** Errado – listas simples permitem remoção, apenas é mais trabalhosa.
+- ✅ **(c)** Certo – lista **duplamente encadeada** tem ponteiros para o próximo e o anterior.
+- **(d)** Errado – só a duplamente encadeada tem ponteiro duplo.
+
+🧠 *Dica:* pense na diferença entre mão única (simples) e mão dupla (dupla).
+
+---
+
+### **2. Acesso a índice inexistente de matriz**
+
+- **(a)** Errado – Java não realoca matriz automaticamente.
+- **(b)** Errado – o programa lança exceção, não apenas para.
+- ✅ **(c)** Certo – ocorre um erro do tipo `ArrayIndexOutOfBoundsException`.
+- **(d)** Errado – não retorna null, apenas estoura erro.
+
+🧠 *Dica:* memorize: **índice inválido = exceção**.
+
+---
+
+### **3. Diferença entre matrizes e listas encadeadas**
+
+- **(a)** Errado – capacidade depende do tamanho da alocação.
+- **(b)** Errado – matrizes **não crescem dinamicamente** (listas sim).
+- ✅ **(e)** Certo – matriz = **estática**, lista = **dinâmica**.
+- **(c)** Verdade – listas encadeadas não permitem acesso direto, mas a (e) é mais completa.
+
+🧠 *Dica:* matriz é um bloco fixo na memória; lista vai crescendo.
+
+---
+
+### **4. O que é uma lista encadeada**
+
+- **(a)** Errado – isso seria uma matriz multidimensional.
+- ✅ **(b)** Certo – lista encadeada é feita de nós ligados entre si.
+- **(c)** Errado – memória **não** é contígua.
+- **(d)** Errado – listas são dinâmicas, não têm tamanho fixo.
+
+---
+
+### **5. Fila circular**
+
+- **(a)** Errado – fila circular **reutiliza espaço**.
+- ✅ **(b)** Certo – ela reinicia no início ao remover elementos.
+- **(c)** Errado – pode ter elementos duplicados.
+- **(d)** Errado – os elementos **podem voltar** ao início.
+
+---
+
+### **6. Característica de matriz**
+
+- **(a)** Errado – só armazena dados do **mesmo tipo**.
+- **(b)** Errado – permite várias operações.
+- **(c)** Errado – não é ideal para inserções/remoções.
+- ✅ **(d)** Certo – matriz é bidimensional com tipos iguais.
+
+---
+
+### **7. Remoção em Fila FIFO**
+
+- **(a)** Push → é de **pilha**
+- **(b)** Add → é inserção
+- ✅ **(c)** Dequeue → remoção da **fila**
+- **(d)** Pop → é de **pilha**
+
+---
+
+### **8. Push em pilha**
+
+- ✅ **(a)** Certo – adiciona no **topo** da pilha
+- **(b)** Errado – não insere na base
+- **(c)** Errado – não copia, adiciona
+- **(d)** Errado – isso seria o `pop`
+
+---
+
+### **9. Declaração de matriz bidimensional em Java**
+
+- **(a)** Errado – falta os `[]` na frente
+- ✅ **(b)** Certo – `tipo[][] nome = new tipo[l][c];`
+- **(c)** Errado – não existe sintaxe com vírgula
+- **(d)** Errado – está incompleta
+
+---
+
+### **10. Complexidade de algoritmo**
+
+- **(a)** Errado – não é teste, é análise
+- **(b)** Errado – não são os passos
+- ✅ **(c)** Certo – mede tempo ou espaço
+- **(d)** Errado – número de linhas não define complexidade
+
+---
+
+### **11. Códigos Java**
+
+Todos os trechos mostram situações **simples de lógica condicional**. Observe:
+
+- `idade = 18` → menor que 50 → imprime **"Verdade"**
+- `idade = 18` e o teste é `> 50` → imprime **"Falso"**
+- `idade >= 18` → imprime **"maior de idade"**
+- `numero = 7` → 7 % 2 != 0 → imprime **"ímpar"**
+
+---
+
+### **12. Vantagens das listas encadeadas**
+
+- **(a)** Errado – depende do caso, nem sempre usa menos memória
+- **(b)** Errado – não tem acesso aleatório
+- ✅ **(c)** Certo – pode inserir/remover facilmente
+- **(d)** Errado – algoritmos de busca são mais lentos
+
+---
+
+### **13. Operações da pilha**
+
+- ✅ **(a)** Push (inserir) e Pop (remover)
+- **(b)** Insert/Delete → genérico
+- **(c)** Enqueue/Dequeue → de fila
+- **(d)** Add/Remove → genérico
+
+---
+
+### **14. O que é operação Pop**
+
+- **(a)** Errado – remove do topo, não do meio
+- **(b)** Errado – isso é push
+- ✅ **(c)** Certo – remove do **topo**
+- **(d)** Errado – isso seria o método peek()
+
+---
+
+### **15. O que é o head**
+
+- **(a)** Errado – o meio da lista não tem nome
+- **(b)** Errado – isso é o tail
+- **(c)** Errado – head é um nó, não uma posição
+- ✅ **(d)** Certo – é o **primeiro nó** da lista
+
+---
+
+### **16. Algoritmo de 1 a 10**
+
+```java
+for (int i = 1; i <= 10; i++) {
+    System.out.println(i);
+}
+```
+
+---
+
+### **17. Vantagem das listas para inserção/remoção**
+
+- ✅ **(d)** Certo – sem necessidade de realocar
+- **(a)** Errado – às vezes usa mais memória
+- **(b)** Errado – depende do uso
+- **(c)** Errado – não há acesso direto
+
+---
+
+### **18. Inserção em fila**
+
+- **(a)** Push → pilha
+- **(b)** Insert → genérico
+- **(c)** Add → pode confundir
+- ✅ **(d)** Enqueue → correto para **fila**
+
+---
+
+### **19. Verificar se b é o menor**
+
+```java
+if (b < a && b < c) {
+    System.out.println("B é o menor valor.");
+} else {
+    System.out.println("B não é o menor.");
+}
+```
+
+---
+
+Se quiser, posso gerar agora um PDF ou DOC com tudo isso organizado e pronto para imprimir ou estudar. Deseja que eu crie esse material em arquivo?
